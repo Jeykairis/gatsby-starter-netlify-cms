@@ -10,7 +10,7 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     function scrollToTopSmoothly() {
-      window.scrollTo({top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'smooth' })
     }
     return (
       <footer className="footer has-background-black has-text-white-ter">
