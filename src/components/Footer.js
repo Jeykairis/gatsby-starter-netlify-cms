@@ -18,7 +18,7 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="Kaldi"
-            style={{ width: '14em', height: '10em', cursor: 'pointer' }}
+            style={{ width: '14em', height: '10em' }}
             onClick={scrollToTopSmoothly}
           />
         </div>
