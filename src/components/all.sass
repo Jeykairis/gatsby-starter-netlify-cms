@@ -43,13 +43,13 @@ $black: #2b2523
   align-items: center
 
 .full-width-image
-  width: 100vw
-  height: 400px
-  background-size: cover
-  background-position: bottom
-  display: flex
-  justify-content: center
-  align-items: center
+    width: 100vw
+    height: 400px
+    background-size: cover
+    background-position: bottom
+    display: flex
+    justify-content: center
+    align-items: center
 
 .margin-top-0
   margin-top: 0 !important
@@ -98,26 +98,29 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+    // background-color: #d6400033
+    border: 1px solid $primary
+
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
-
+  
 @import "~bulma"
 
 
-  +tablet-only
+// responsiveness
++tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
